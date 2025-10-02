@@ -9,7 +9,7 @@
 ![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green.svg)
 ![CVE API](https://img.shields.io/badge/CVE%20API-Integrated-orange.svg)
 
-## 🚀 Features
+## Features
 
 - **Automated Network Discovery**: Intelligent host and service enumeration using Nmap
 - **CVE Integration**: Real-time vulnerability identification using NIST NVD database
@@ -20,14 +20,14 @@
 - **40% Faster Performance**: Optimized async operations compared to traditional tools
 - **Risk Assessment**: Advanced CVSS scoring and risk categorization
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Nmap 7.0 or higher
 - Network access to target systems
 - Internet connectivity for CVE database queries
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ Download from https://nmap.org/download.html
    python database.py
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Command Line Usage
 
@@ -147,7 +147,7 @@ status = requests.get(f'http://localhost:5000/api/scan/{scan_id}')
 print(status.json())
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Basic Configuration
 
@@ -201,7 +201,7 @@ RISK_WEIGHTS = {
 }
 ```
 
-## 📡 API Documentation
+## API Documentation
 
 ### Authentication
 
@@ -271,7 +271,7 @@ Content-Type: application/json
 }
 ```
 
-## 📊 Report Types
+## Report Types
 
 ### Executive Summary
 - High-level security posture overview
@@ -307,7 +307,7 @@ Content-Type: application/json
 - Complete scan metadata
 - Structured vulnerability data
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -331,7 +331,7 @@ coverage report
 coverage html
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **Scan Speed**: 40% faster than traditional tools
 - **Concurrent Targets**: Up to 50 simultaneous scans
@@ -340,7 +340,7 @@ coverage html
 - **Memory Usage**: < 1GB for large network scans
 - **API Response Time**: < 500ms for most endpoints
 
-## 🔒 Security Considerations
+## Security Considerations
 
 ### Scanning Ethics
 - Only scan networks you own or have permission to test
@@ -358,7 +358,7 @@ coverage html
 - Some scans may trigger security alerts
 - Consider scanning during maintenance windows
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -401,7 +401,7 @@ export LOG_LEVEL=DEBUG
 python vulnscan.py --target 192.168.1.100 --verbose
 ```
 
-## 📝 Logging
+## Logging
 
 Logs are organized by component:
 - **Scanner logs**: `logs/scanner.log`
@@ -409,7 +409,7 @@ Logs are organized by component:
 - **CVE lookup logs**: `logs/cve.log`
 - **Report generation**: `logs/reports.log`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -430,11 +430,11 @@ pre-commit install
 python -m pytest
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Nmap**: Network discovery and security auditing
 - **NIST NVD**: Comprehensive vulnerability database
@@ -442,14 +442,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Jinja2**: Template engine for reports
 - **AsyncIO**: High-performance asynchronous operations
 
-## 📞 Support
+## Support
 
 For support and questions:
 - GitHub Issues: Create an issue for bugs or feature requests
 - Documentation: https://docs.vulnscan-pro.com
 - Email: support@vulnscan-pro.com
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Machine learning-based vulnerability prioritization
 - [ ] Integration with popular SIEM platforms
@@ -461,4 +461,4 @@ For support and questions:
 
 ---
 
-**Securing networks, one scan at a time 🛡️**
+**Securing networks, one scan at a time **
